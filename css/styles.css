@@ -1,5 +1,7 @@
 /*Stylesheet for the NoteVelocity website*/
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Open+Sans:400,700);
+
 .page {
 	/*margin-top: 0.5em;*/
 	margin-left: auto;
@@ -15,7 +17,7 @@
 
 	padding: 1em;
 	
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: 3em;
 	font-weight: bold;
 }
@@ -37,7 +39,8 @@
 	padding-right: 0.75em;
 	padding-bottom: 0.5em;
 
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
 	font-size: 1.5em;
 }
 
@@ -61,14 +64,9 @@
 	max-width: 1440px;
 }
 
-.mainlink {
-	color: #000;
-	text-decoration: none;
-	font-family: "Source Sans Pro";
-}
-
 .emphasis {
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
 	color: #282828;
 }
 
@@ -83,7 +81,8 @@
 	float: right;
 	color: #888;
 
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
 	font-size: 1em;
 	text-align: right;
 	text-decoration: none;
@@ -103,7 +102,7 @@ h1 {
 	padding-top: 0em;
 
 	line-height: 1em;
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: 2.5em;
 	font-weight: bold;
 
@@ -114,16 +113,31 @@ h2 {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: 2em;
 
 	color: #333;
 }
 
 p {
-	font-family: "Source Sans Pro Light";
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
 	font-size: 1em;
 	color: #484848;
+}
+
+p a:link {
+	color: #111;
+	text-decoration: none;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
+}
+
+p a:visited {
+	color: #111;
+	text-decoration: none;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 600;
 }
 
 a {
@@ -166,6 +180,14 @@ a {
 	p {
 		font-size: 0.9em;
 	}
+
+	p a:link {
+		font-size: 0.9em;
+	}
+
+	p a:visited {
+		font-size: 0.9em;
+	}
 }
 
 @media (max-width: 600px) {
@@ -197,6 +219,14 @@ a {
 	}
 
 	p {
+		font-size: 0.8em;
+	}
+
+	p a:link {
+		font-size: 0.8em;
+	}
+
+	p a:visited {
 		font-size: 0.8em;
 	}
 
