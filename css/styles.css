@@ -120,7 +120,7 @@ h2 {
 	color: #333;
 }
 
-para {
+p {
 	font-family: "Source Sans Pro Light";
 	font-size: 1em;
 	color: #484848;
@@ -163,7 +163,7 @@ a {
 		font-size: 1.7em;
 	}
 
-	para {
+	p {
 		font-size: 0.9em;
 	}
 }
@@ -196,7 +196,7 @@ a {
 		font-size: 1.3em;
 	}
 
-	para {
+	p {
 		font-size: 0.8em;
 	}
 
